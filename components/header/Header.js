@@ -24,7 +24,7 @@ const Header = (props) => {
                     className='navbar-brand site-logo'
                     href='/'>
                     <img src='images/logo.png' alt='' />
-                    Elito.
+                    Touhid.
                   </Link>
                 </div>
               </div>
