@@ -1,4 +1,3 @@
-import React, {Fragment} from 'react';
 import About from '../components/about/about';
 import BlogSection from '../components/BlogSection/BlogSection';
 import CommonHead from '../components/commonHead';
@@ -16,23 +15,23 @@ import Testimonial from '../components/Testimonial/Testimonial';
 export default function Home() {
   return (
     <div id='scrool'>
-      <CommonHead/>
-      <Fragment>
-            <div className="br-app">
-                <Navbar/>
-                <Hero/>
-                <About/>
-                <ServiceSection/>
-                <ExprienceSec/>
-                <ProjectSection/>
-                <Testimonial/>
-                <Pricing/>
-                <ContactArea/>
-                <BlogSection/>
-                <Footer/>
-                <Scrollbar/>
-            </div>
-        </Fragment>
+      <CommonHead />
+      <>
+        <div className='br-app'>
+          <Navbar />
+          <Hero />
+          <About />
+          <ServiceSection />
+          <ExprienceSec />
+          <ProjectSection />
+          <Testimonial />
+          <Pricing />
+          <ContactArea />
+          <BlogSection />
+          <Footer />
+          <Scrollbar />
+        </div>
+      </>
     </div>
-  )
+  );
 }
